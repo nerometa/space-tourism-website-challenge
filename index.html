@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +11,8 @@
       rel="stylesheet">
         
   <title>Frontend Mentor | Space tourism website</title>
+
+  <script src="index.js" defer></script>
 </head>
 <body class="home">
 
@@ -18,8 +20,9 @@
     <div>
       <img src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
     </div>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
     <nav>
-      <ul class="primary-navigation underline-indicators flex" style="display: none;">
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
           <li class="active"><a class="ff-sans-cond text-white uppercase letter-spacing-2" href="index.html"><span>00</span>Home</a>
           <li><a class="ff-sans-cond text-white uppercase letter-spacing-2" href="destination.html"><span>01</span>Destination</a>
           <li><a class="ff-sans-cond text-white uppercase letter-spacing-2" href="crew.html"><span>02</span>Crew</a>
