@@ -40,14 +40,14 @@
           data-visible="false"
           class="primary-navigation underline-indicators flex"
         >
-          <li class="active">
+          <li>
             <a
               class="ff-sans-cond text-white uppercase letter-spacing-2"
               href="index.html"
               ><span aria-hidden="true">00</span>Home</a
             >
           </li>
-          <li>
+          <li class="active">
             <a
               class="ff-sans-cond text-white uppercase letter-spacing-2"
               href="destination.html"
@@ -72,11 +72,18 @@
       </nav>
     </header>
 
-    <main id="main" class="grid-container grid-container--destination flow">
+    <main
+      id="main"
+      class="grid-container grid-container--destination flow--space--small"
+    >
       <h1 class="numbered-title">
         <span aria-hidden="true">01</span> Pick your destination
       </h1>
-      <img src="./assets/destination/image-moon.png" alt="the moon" />
+      <picture>
+        <source srcset="assets/destination/image-moon.webp" type="image/webp" />
+        <img src="./assets/destination/image-moon.png" alt="the moon" />
+      </picture>
+
       <div class="tab-list underline-indicators flex">
         <button
           aria-selected="true"
@@ -116,11 +123,11 @@
         <div class="destination-meta flex">
           <div>
             <h3 class="uppercase fs-200 text-accent">Avg. Distance</h3>
-            <p class="ff-serif fs-500 uppercase">384,400 km</p>
+            <p class="ff-serif uppercase">384,400 km</p>
           </div>
           <div>
             <h3 class="uppercase fs-200 text-accent">Est. travel time</h3>
-            <p class="ff-serif fs-500 uppercase">3 days</p>
+            <p class="ff-serif uppercase">3 days</p>
           </div>
         </div>
       </article>
