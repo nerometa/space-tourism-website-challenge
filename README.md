@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: Soon
-- Live Site URL: Soon
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/solution-space-tourism-website-qU5e3Aju97)
+- Live Site URL: [Github](https://nerometa.github.io/space-tourism-website-challenge/)
 
 ## My process
 
